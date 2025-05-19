@@ -7,11 +7,8 @@
   <title>foundational.bio</title>
   <style>
     /* Basic reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
       display: flex;
       align-items: center;
@@ -19,26 +16,35 @@
       min-height: 100vh;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       color: #2c3e50;
-      background: linear-gradient(135deg, #f9fafb, #e2e8f0);
+      /* Match page background to logo gradient */
+      background: radial-gradient(circle at center, #FFD27D 0%, #8DD2D1 100%);
     }
+
     .container {
       text-align: center;
       padding: 2rem;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 1rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
+
     .logo {
       max-width: 200px;
       height: auto;
       margin-bottom: 1.5rem;
     }
+
     h1 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
     }
+
     p {
       font-size: 1.125rem;
       margin-bottom: 2rem;
       line-height: 1.5;
     }
+
     .btn {
       display: inline-block;
       padding: 0.75rem 1.5rem;
@@ -49,6 +55,7 @@
       font-weight: 600;
       transition: background-color 0.3s ease;
     }
+
     .btn:hover {
       background-color: #243b53;
     }
