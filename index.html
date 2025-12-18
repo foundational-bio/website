@@ -1,72 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AI-driven biological automation." />
-  <title>foundational.bio</title>
-  <style>
-    /* Basic reset */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundational Bio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: #2c3e50;
-      /* Match page background to logo gradient */
-      background: radial-gradient(circle at center, #FFD27D 0%, #8DD2D1 100%);
-    }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f8f7f4;
+        }
 
-    .container {
-      text-align: center;
-      padding: 2rem;
-      margin: 2rem;
-      background-color: #FFFBF8;
-      border-radius: 1rem;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
 
-    .logo {
-      max-width: 200px;
-      height: auto;
-    }
+        header {
+            padding: 2rem 0 4rem;
+        }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
 
-    p {
-      font-size: 1.125rem;
-      margin-bottom: 2rem;
-      line-height: 1.5;
-    }
+        nav {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.95rem;
+        }
 
-    .btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background-color: #334e68;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 0.5rem;
-      font-weight: 600;
-      transition: background-color 0.3s ease;
-    }
+        nav a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
 
-    .btn:hover {
-      background-color: #243b53;
-    }
-  </style>
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .intro {
+            margin-bottom: 4rem;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .posts {
+            margin-bottom: 4rem;
+        }
+
+        .post {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .post h2 a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .post h2 a:hover {
+            text-decoration: underline;
+        }
+
+        .post-date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .post p {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 0.5rem 1rem;
+            line-height: 1.8;
+        }
+
+        .team-member {
+            font-size: 0.95rem;
+        }
+
+        .team-member a {
+            color: #666;
+            text-decoration: none;
+            margin-left: 0.3rem;
+        }
+
+        .team-member a:hover {
+            opacity: 0.7;
+        }
+
+        .linkedin-icon {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            vertical-align: -2px;
+            fill: #666;
+        }
+
+        .advisor-name {
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+
+        .advisor-title {
+            display: block;
+            font-weight: normal;
+        }
+
+        .growing {
+            font-style: italic;
+            color: #666;
+            margin-top: 1rem;
+        }
+
+        .cta {
+            margin-top: 0.5rem;
+        }
+
+        .cta a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .cta a:hover {
+            text-decoration: underline;
+        }
+
+        .investors p {
+            line-height: 1.7;
+        }
+
+        .investors a {
+            color: #1a1a1a;
+        }
+
+        footer {
+            padding: 2rem 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            nav {
+                gap: 1.5rem;
+            }
+
+            .team-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Put your logo file named logo.png in the same directory -->
-    <img src="logo.png" alt="foundational.bio Logo" class="logo" />
-    <p>Self-driving labs</p>
-    <a href="mailto:info@foundational.bio" class="btn">Contact Us</a>
-  </div>
+    <svg style="display: none;">
+        <defs>
+            <symbol id="linkedin-icon" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </symbol>
+        </defs>
+    </svg>
+    <div class="container">
+        <header>
+            <div class="logo"><u>&nbsp;Foundational Bio&nbsp;</u></div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#team">Team</a>
+                <a href="#investors">Investors</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="intro">
+                <p>Foundational Bio is building a self-driving lab – a fully automated lab designed to replace manual workflows with AI-driven robotics to pave the way for large scale discovery in the life sciences.</p>
+            </div>
+
+            <section class="team" id="team">
+                <h3>Team</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <b>Tomaz Berisa</b>
+                        <a href="https://www.linkedin.com/in/tomazberisa/" target="_blank" title="LinkedIn Profile">
+                            <svg class="linkedin-icon"><use href="#linkedin-icon"/></svg>
+                        </a>
+                    </div>
+                    <div class="team-member">
+                        <b>Jahan-Yar Parsa</b>
+                        <a href="https://www.linkedin.com/in/jahan-yar-parsa/" target="_blank" title="LinkedIn Profile">
+                            <svg class="linkedin-icon"><use href="#linkedin-icon"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="investors" id="investors">
+                <h3>Investors</h3>
+                <p>We are grateful for the support of <b><a href="https://sosv.com/" target="_blank">SOSV</a></b> and <b><a href="https://indiebio.co/" target="_blank">IndieBio</a></b>.</p>
+            </section>
+        </main>
+        <footer id="join">
+            <p style="margin-top: 1rem;">Foundational Bio</p>
+            <a href="mailto:info@foundational.bio" class="btn">Contact Us</a>
+        </footer>
+    </div>
 </body>
 </html>
