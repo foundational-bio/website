@@ -1,0 +1,36 @@
+# Foundational Bio
+
+> Foundational Bio runs an AI-native, vertically integrated lab that offers sequencing as a repeatable service. Customers send plates and receive data, with lower cost, faster turnaround, and fewer errors. Plates in, data out.
+
+For research use only (RUO). Not for use in diagnostic procedures.
+
+## Services
+
+- WGS (whole-genome sequencing): available now
+- WES (whole-exome sequencing): coming soon
+- RNA-seq (transcriptome sequencing): coming soon
+- ppmSeq (part-per-million variant detection): coming soon
+- Methyl-seq (methylation sequencing): on the roadmap
+- Beyond sequencing: shaped with development partners
+
+## Ordering
+
+- Minimum order: one 96-well plate
+- 50% up front reserves your run
+- Request a quote at https://foundational.bio/#book; we reply within one business day
+- Contact: info@foundational.bio
+
+## The lab
+
+Samples are processed on purpose-built, scalable lab hardware by robots powered by custom physical AI models. A software platform orchestrates every run. Only robots touch samples, with human oversight.
+
+- Scalable lab hardware: modular, AI-native workstations that add capacity one unit at a time
+- Physical AI models: models that see, plan, and execute wet-lab protocols on real hardware
+- Software platform: orchestrates every run and keeps track of everything in the lab
+- Full traceability: every action on every sample is machine-executed and machine-logged, from intake to delivered data
+
+## Company
+
+- Foundational Bio, Inc.
+- 7 Penn Plaza, 9th Floor, New York, NY 10001
+- Website: https://foundational.bio
