@@ -1,8 +1,30 @@
 # Foundational Bio
 
-> Foundational Bio runs an AI-native, vertically integrated lab that offers sequencing as a repeatable service. Customers send plates and receive data, with lower cost, faster turnaround, and fewer errors. Plates in, data out.
+> Foundational Bio builds self-driving biology labs: physical AI for the life sciences. Physical AI models drive robots to do all the hands-on lab work, so samples become data without a human touching them. The company runs its own AI-native, vertically integrated lab in New York and offers sequencing as a service. Tagline: "Tell the lab what to do, not how to do it."
 
 For research use only (RUO). Not for use in diagnostic procedures.
+
+## What we do
+
+- Build and operate autonomous, AI-native biology labs at data-center scale
+- Offer next-generation sequencing as a repeatable service: send a plate, get back data
+- Designed to reduce cost, turnaround time, and errors compared with manual lab work
+- Long-term: deploy the same lab system into other labs once proven at scale
+
+## Why
+
+AI is rapidly accelerating hypothesis generation, experiment design, and interpretation. Generating the data in between still depends on a person with a pipette. Lab work is expensive, slow, and error-prone, and hiring more hands does not fix it. Foundational Bio is building a lab where the bench keeps up, so scientists spend their time on science, not manual labor.
+
+## How the lab works
+
+Four layers, built together as one system. Inside the lab, only robots touch samples.
+
+1. Intent: human + AI scientist. Hypothesis, experimental design, and evaluation. The customer decides what to run.
+2. Translation: software platform. Turns intent into protocols, orchestrates runs, and collects data.
+3. Execution: physical AI models. Execute wet-lab protocols on real hardware.
+4. Infrastructure: scalable lab hardware. Modular, AI-native workstations; capacity grows one unit at a time.
+
+Full traceability: every action on every sample is machine-executed and machine-logged, from intake to delivered data.
 
 ## Services
 
@@ -15,22 +37,15 @@ For research use only (RUO). Not for use in diagnostic procedures.
 
 ## Ordering
 
-- Minimum order: one 96-well plate
-- 50% up front reserves your run
-- Request a quote at https://foundational.bio/#book; we reply within one business day
+- Minimum order: 100 samples for 30x human whole-genome sequencing
+- Accepted inputs: blood, saliva, or extracted DNA
+- Deliverables: CRAM and VCF files
+- Request a quote at https://foundational.bio/#book; replies within one business day
 - Contact: info@foundational.bio
-
-## The lab
-
-Samples are processed on purpose-built, scalable lab hardware by robots powered by custom physical AI models. A software platform orchestrates every run. Only robots touch samples, with human oversight.
-
-- Scalable lab hardware: modular, AI-native workstations that add capacity one unit at a time
-- Physical AI models: models that see, plan, and execute wet-lab protocols on real hardware
-- Software platform: orchestrates every run and keeps track of everything in the lab
-- Full traceability: every action on every sample is machine-executed and machine-logged, from intake to delivered data
 
 ## Company
 
 - Foundational Bio, Inc.
 - 7 Penn Plaza, 9th Floor, New York, NY 10001
 - Website: https://foundational.bio
+- Backed by SOSV, Boost VC, Draper B1, Hartmann Capital, and Earthling
