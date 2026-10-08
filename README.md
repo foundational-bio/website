@@ -14,6 +14,8 @@ Copy everything in this folder into the root of the website repository, replacin
 
 ## Notes
 
+- Share-card tags (Open Graph, Twitter, description, canonical) are written as static HTML in the head of index.html so Slack, LinkedIn, and X can read them without running JavaScript.
+- After deploying, Slack caches link previews for a while. To force a refresh, paste the URL with a query string (https://foundational.bio/?v=2) or wait for the cache to expire.
 - Keep the existing CNAME file (custom domain) if the repo has one.
 - The quote form posts to HubSpot (portal 243505211). Last Name must not be required on the HubSpot form, or single-word names will be rejected.
 - Update the lastmod date in sitemap.xml when you ship content changes.
