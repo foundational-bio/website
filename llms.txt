@@ -6,7 +6,7 @@ For research use only (RUO). Not for use in diagnostic procedures.
 
 ## What we do
 
-- Build and operate autonomous, AI-native biology labs at data-center scale
+- Build and operate autonomous, AI-native biology labs 
 - Offer next-generation sequencing as a repeatable service: send a plate, get back data
 - Designed to reduce cost, turnaround time, and errors compared with manual lab work
 - Long-term: deploy the same lab system into other labs once proven at scale
