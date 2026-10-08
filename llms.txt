@@ -1,6 +1,6 @@
 # Foundational Bio
 
-> Foundational Bio builds self-driving biology labs: physical AI for the life sciences. Physical AI models drive robots to do all the hands-on lab work, so samples become data without a human touching them. The company runs its own AI-native, vertically integrated lab in New York and offers sequencing as a service. Tagline: "Tell the lab what to do, not how to do it."
+> Foundational Bio builds self-driving biology labs: physical AI for the life sciences. Physical AI models drive robots to do all the hands-on lab work and turn samples into data. The company runs its own AI-native, vertically integrated lab in New York and offers sequencing as a service. Tagline: "Tell the lab what to do, not how to do it."
 
 For research use only (RUO). Not for use in diagnostic procedures.
 
