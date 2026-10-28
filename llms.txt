@@ -1,6 +1,6 @@
 # Foundational Bio
 
-> Foundational Bio builds self-driving biology labs: physical AI for the life sciences. Physical AI models drive robots to do all the hands-on lab work and turn samples into data. The company runs its own AI-native, vertically integrated lab in New York and offers sequencing as a service. Tagline: "Tell the lab what to do, not how to do it."
+> Foundational Bio runs a self-driving biology lab in New York and offers next-generation sequencing as a service. Physical AI models drive robots to do all the hands-on lab work and turn samples into data. Whole-genome sequencing (30x human) is available now for research groups, biotechs, and biobanks: minimum order 100 samples; send blood, saliva, or extracted DNA; receive CRAM and VCF files. Tagline: "Tell the lab what to do, not how to do it."
 
 For research use only (RUO). Not for use in diagnostic procedures.
 

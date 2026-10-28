@@ -4,7 +4,7 @@ Copy everything in this folder into the root of the website repository, replacin
 
 ## Files
 
-- index.html: the full site, self-contained (images and fonts inlined); includes canonical URL, Open Graph and Twitter cards, and Organization JSON-LD
+- index.html: the full site (v3), self-contained (images and fonts inlined); includes canonical URL, Open Graph and Twitter cards, and Organization JSON-LD
 - og-image.png: social share image (1200x630), referenced as https://foundational.bio/og-image.png
 - favicon.ico, favicon.svg, favicon-32.png, favicon.png: browser tab icons, transparent background so the rectangular plate reads as the icon
 - apple-touch-icon.png, icon-512.png: home-screen / app icons, transparent background (iOS fills transparency with black; Android masks to its icon shape)
